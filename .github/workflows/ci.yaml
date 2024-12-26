@@ -15,3 +15,6 @@ jobs:
           echo "Folllowing is the info about Cloned Repo"
           echo "Repository Name: ${{github.repository}}"   
           echo "Repository Owner: ${{github.owner}}"
+          git branch
+          git log
+          git config --local --list
